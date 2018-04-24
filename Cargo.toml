@@ -1,0 +1,6 @@
+[package]
+name = "stm32f746-hal"
+version = "0.1.0"
+authors = ["Philipp Oppermann <dev@phil-opp.com>"]
+
+[dependencies]
