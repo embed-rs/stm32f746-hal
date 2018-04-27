@@ -9,3 +9,9 @@ pub mod flash;
 pub mod gpio;
 pub mod rcc;
 pub mod time;
+
+use stm32f7::stm32f7x6::Peripherals;
+
+pub fn take_peripherals() -> Option<Peripherals> {
+    Peripherals::take()
+}
